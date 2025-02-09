@@ -1,0 +1,13 @@
+L_bracket=chr(ord('('))
+R_bracket=chr(ord(')'))
+R_slash=chr(92)
+L_slash=chr(ord('/'))
+undline=chr(ord('_'))
+equal=chr(ord('='))
+dot=chr(ord('.'))
+quotes=chr(ord("'"))
+Db_quotes=chr(ord('"'))
+print(f'{L_bracket}{R_slash}{3*undline}{L_slash}{R_bracket}'
+      f'\n{L_bracket}{equal}{quotes}{dot}{quotes}{equal}{R_bracket}'
+      f'\n{L_bracket}{Db_quotes}{R_bracket}{undline}'
+      f'{L_bracket}{Db_quotes}{R_bracket}')
