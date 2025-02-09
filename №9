@@ -1,0 +1,2 @@
+playlist=list(map(str, input('Введите плей-лист папы:').split()))
+print(f'плей-лист мамы:{playlist[-1::-1]}')
