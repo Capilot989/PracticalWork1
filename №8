@@ -1,0 +1,5 @@
+login=input('Введите свой логин:')
+password=input('Введите пароль:')
+new_password=input('Введите новый пароль:')
+Repeat_password=input('Повторите пароль:')
+print(f'user {login} has changed the password to {password}')
